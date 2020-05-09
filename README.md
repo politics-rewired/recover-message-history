@@ -1,7 +1,7 @@
-## recover-message-history ##
+# recover-message-history #
 Recovering message history!
 
-###How to install###
+## How to install ##
 
 **Prerequisite:** Nodejs
 
