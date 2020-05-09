@@ -6,8 +6,8 @@ import fs from 'fs';
 async function main(): Promise<void> {
   const instance = twilio(process.env.ACCOUNT_SID, process.env.AUTH_TOKEN);
 
-  const dateSentAfter = new Date('2020-01-31 15:00:00-05');
-  const dateSentBefore = new Date('2020-01-31 21:30:00-05');
+  const dateSentAfter = new Date('2020-04-15 9:00:00-05');
+  const dateSentBefore = new Date('2020-05-09 14:30:00-05');
 
   const inboundMessages = await new Promise<MessageInstance[]>(
     (resolve, _reject) => {
