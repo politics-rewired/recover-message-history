@@ -18,7 +18,7 @@ create table recovery.messages (
   user_id int
 );
 
-\copy recovery.messages from 'dfp-messages.csv' with csv header;
+\copy recovery.messages from 'messages.csv' with csv header;
 
 insert into message (
   user_id, contact_number, is_from_contact, text, service_response, assignment_id,
